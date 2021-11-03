@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: "Orbitron", sans-serif;
+  background: url('./background.jpg');
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  text-shadow: 1px 1px 4px gray;
+  /* filter: blur(8px);
+  -webkit-filter: blur(8px);
+  z-index: 1; */
+}
+
+main {
+  height: 800px;
+  display: flex;
+  justify-content: center;
+  height: 80vh;
+}
+
+header {
+  color: white;
+  width: 100%;
+  margin: 50px auto;
+}
+
+.header {
+  text-align: center;
+  font-weight: 400;
+}
+
+#countdown {
+  /* z-index: 2; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+td, th {
+  color:rgb(226, 222, 222);
+  text-align: center;
+  font-size: 2.5rem;
+  font-weight: 300;
+}
+
+#days, #hours, #minutes, #seconds {
+  color: white;
+  font-weight: 900;
+  font-size: 6rem; 
+}
+
+
+
