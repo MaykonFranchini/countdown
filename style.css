@@ -20,7 +20,7 @@ body {
 }
 
 main {
-  height: 800px;
+  
   display: flex;
   justify-content: center;
   height: 80vh;
@@ -59,3 +59,32 @@ td, th {
 
 
 
+/*  responsivity */
+
+@media only screen and (max-width: 600px) {
+  #days, #hours, #minutes, #seconds {
+    font-size: 3rem;
+  }
+
+  h1 {
+    font-size: 1.7rem;
+  }
+
+  td, th {
+    font-size: 1.5rem;
+  }
+}
+
+@media only screen and (max-width: 375px) {
+  #days, #hours, #minutes, #seconds {
+    font-size: 2.7rem;
+  }
+
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  td, th {
+    font-size: 1.3rem;
+  }
+}
